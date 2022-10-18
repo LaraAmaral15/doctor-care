@@ -31,7 +31,6 @@ function activateMenuAtCurrentSection(section) {
   const sectionTopReachOrPassedTargetLine = targetLine >= sectionTop
 
   //verificar se a base está abaixo da linha alvo
-  //quais dados vou precisar?
 
   //a seção termina onde?
   const sectionEndsAt = sectionTop + sectionHeight
@@ -89,10 +88,3 @@ ScrollReveal({
             #about,
             #about header,
             #about .content`)
-
-
-function sayMyName (name) {
-  console.log(name)
-}
-
-sayMyName("Mayk")
